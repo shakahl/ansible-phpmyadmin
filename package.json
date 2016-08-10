@@ -1,6 +1,6 @@
 {
    "name": "shakahl.ansible-phpmyadmin",
-   "version": "0.0.0",
+   "version": "0.0.1",
    "description": "Ansible role for installing phpMyAdmin",
    "author": "Soma Szelpal <szelpalsoma@gmail.com>",
    "bugs": {
