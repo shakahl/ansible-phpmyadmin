@@ -1,4 +1,4 @@
-# Ansible Role: phpMyAdmin
+# shakahl.phpmyadmin
 
 An Ansible role that installs phpMyAdmin on Ubuntu.
 

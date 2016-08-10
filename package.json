@@ -1,0 +1,13 @@
+{
+   "name": "shakahl.ansible-phpmyadmin",
+   "version": "0.0.0",
+   "description": "Ansible role for installing phpMyAdmin",
+   "author": "Soma Szelpal <szelpalsoma@gmail.com>",
+   "bugs": {
+      "url": "https://github.com/shakahl/ansible-phpmyadmin/issues"
+   },
+   "keywords": [
+      "database"
+   ],
+   "license": "MIT"
+}

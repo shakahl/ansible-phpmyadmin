@@ -1,14 +1,29 @@
 ---
+
 galaxy_info:
-  author: mjanser
-  description: Installs phpMyAdmin
+  author: shakahl
+  description: Ansible role for installing phpMyAdmin
+  issue_tracker_url: https://github.com/shakahl/ansible-phpmyadmin/issues
   license: MIT
   min_ansible_version: 1.9
+  github_branch: master
   platforms:
-  - name: Ubuntu
-    versions:
-    - trusty
-  categories:
-  - web
-  - database
+    - name: Ubuntu
+      versions:
+        - xenial
+        - wily
+        - vivid
+        - utopic
+        - trusty
+        - saucy
+        - precise
+    - name: Debian
+      versions:
+        - jessie
+        - wheezy
+        - squeeze
+  galaxy_tags:
+    - web
+    - database
 dependencies: []
+
