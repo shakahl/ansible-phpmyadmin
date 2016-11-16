@@ -5,3 +5,5 @@ phpmyadmin_server_host: localhost
 phpmyadmin_server_auth_type: config
 phpmyadmin_server_user: root
 phpmyadmin_server_password: root
+
+phpmyadmin_custom_template_filename: config.php.j2

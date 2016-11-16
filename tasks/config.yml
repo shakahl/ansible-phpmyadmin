@@ -1,5 +1,6 @@
 ---
+
 - name: ensure phpmyadmin configuration is installed
   template:
-    src: config.php.j2
+    src: "{{ phpmyadmin_custom_template_filename }}"
     dest: /etc/phpmyadmin/conf.d/custom.php

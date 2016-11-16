@@ -20,6 +20,8 @@ Available variables are listed below, along with default values:
     phpmyadmin_server_user: root
     phpmyadmin_server_password: root
 
+    phpmyadmin_custom_template_filename: config.php.j2
+
 ## Dependencies
 
 None
