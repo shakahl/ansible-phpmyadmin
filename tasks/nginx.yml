@@ -3,17 +3,17 @@
   stat:
     path: /etc/nginx/conf.d
   changed_when: false
-  register: nginx_conf_dir
+  register: phpmyadmin_nginx_config_dir_stat
 
 - name: ensure directory for global nginx configuration files exists
   file:
     path: /etc/nginx/global.d
     state: directory
-  when: nginx_conf_dir.stat.exists
+  when: phpmyadmin_nginx_config_dir_stat.stat.exists
 
 - name: ensure phpmyadmin configuration for nginx is installed
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/global.d/phpmyadmin.conf
   notify: reload nginx
-  when: nginx_conf_dir.stat.exists
+  when: phpmyadmin_nginx_config_dir_stat.stat.exists
